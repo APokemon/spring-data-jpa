@@ -11,5 +11,9 @@
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
+    <bytecodeTargetLevel>
+      <module name="spring-data-jpa.main" target="1.8" />
+      <module name="spring-data-jpa.test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
